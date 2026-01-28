@@ -10,7 +10,7 @@ export default function App() {
 
   // Load scenario from GitHub
   useEffect(() => {
-    fetch("src/scenarios/outage_zone7.json")
+    fetch(import.meta.env.BASE_URL + "src/scenarios/outage_zone7.json")
       .then((res) => res.json())
       .then(setEvents);
   }, []);
