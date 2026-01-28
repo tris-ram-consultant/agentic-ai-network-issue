@@ -1,0 +1,27 @@
+[
+  { "t": 0, "type": "system", "text": "Ticket created — Network Issue" },
+  { "t": 2, "type": "ai", "text": "Hi James — I can check your account and device." },
+  { "t": 5, "type": "customer", "text": "My mobile data stopped working now." },
+  {
+    "t": 8,
+    "type": "backend",
+    "action": "outage_check",
+    "result": "Zone 7 outage detected"
+  },
+  {
+    "t": 12,
+    "type": "ai",
+    "text": "I’ve confirmed a live network outage in your area."
+  },
+  {
+    "t": 40,
+    "type": "backend",
+    "action": "recovery_update",
+    "result": "Services recovering"
+  },
+  {
+    "t": 45,
+    "type": "customer",
+    "text": "It’s working again now."
+  }
+]
